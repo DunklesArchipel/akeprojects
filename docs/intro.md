@@ -1,6 +1,6 @@
 # Welcome AKEs' projects
 
-I am a chemist with specialization in the field of surface science and electrochemistry/-catalysis.
+I am a chemist with specialization in the field of surface science, electrochemistry/-catalysis and research data management.
 Currently I do research and teach at the [Institute of Electrochemistry](https://www.uni-ulm.de/en/nawi/institute-of-electrochemistry/) at [Ulm University](https://www.uni-ulm.de/en/). This page provides an overview on my (collaborative) research activities, related topics and other projects I am or was involved in.
 
 ## Research activities
@@ -10,8 +10,8 @@ Currently I do research and teach at the [Institute of Electrochemistry](https:/
 
 ## RDM & software development
 
-In addition I am interested in topics related to research data management.
-I strongly believe that implementing related workflows help in improving the organization, evaluation and dissemination of scientific results.
+I am confident that implementing research data management related workflows help in improving the organization, evaluation and dissemination of scientific results.
+Automation will remove thd burden of spending precious time on tedious repetitive tasks and thus provides more room for scientific thinking .
 Simple solutions for my field of research and beyond are developed within the frame of the [echemdb organization](https://github.com/echemdb/), which comprise
 
 * [local data management approaches](https://echemdb.github.io/rawtofigure/intro.html)
@@ -22,7 +22,7 @@ I also explore using mediawiki as en electronic lab notebook.
 
 ## Teaching
 
-My teaching activities are related to surface science, surface echemistry, electrochemistry and physical chemistry. In addition I provide introductory tutorials on RDM (in general and usage of Mediawiki as electronic lab notebook), Python, GIT, etc
+My teaching activities are related to surface science, surface chemistry, electrochemistry and physical chemistry. In addition I provide introductory tutorials on RDM (in general and usage of Mediawiki as electronic lab notebook), Python, GIT, etc.
 
 ## Others
 
@@ -32,7 +32,8 @@ As movie enthusiast, I co-founded in 2008 the non profit organization [feierblum
 ```
 
 <!--
-## Usage of Citations
+## Usage of Citations:)
+## keeping it here to remind me that it exists and how it works in jupyter book. :)
 
 You can also cite references that are stored in a `bibtex` file. For example,
 the following syntax: `` {cite}`holdgraf_evidence_2014` `` will render like
