@@ -4,21 +4,26 @@ My personal website summarizing my former and ongoing projects.
 
 ## Developer instructions
 
-Install dependencies
+Install [pixi](https://pixi.sh), then install dependencies
 
 ```sh
-mamba env create --file environment.yaml
-mamba activate akeprojects
+pixi install
 ```
 
 Render the book locally
 
 ```sh
-jupyter-book build docs
+pixi run build
 ```
 
 Explore the page by either opening the `index.html` in `docs/_build/html` or use
 
 ```sh
-python -m http.server 8880 -b localhost --directory docs/_build/html &
+pixi run serve
+```
+
+To clean the build output:
+
+```sh
+pixi run clean
 ```

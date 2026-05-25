@@ -1,0 +1,21 @@
+version: 1
+project:
+  title: AKE
+  authors:
+    - name: Albert K. Engstfeld
+  github: DunklesArchipel/akeprojects
+  bibliography:
+    - references.bib
+  exports:
+    - format: pdf
+      template: plain_latex_book
+      output: exports/book.pdf
+  toc:
+    - file: intro.md
+    - file: publications.md
+    - file: contribution.md
+site:
+  options:
+    logo: files/logos/logo.png
+    folders: true
+  template: book-theme
