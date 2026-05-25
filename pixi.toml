@@ -1,0 +1,24 @@
+[workspace]
+channels = ["conda-forge"]
+name = "akeprojects"
+platforms = ["linux-64", "linux-aarch64", "osx-64", "osx-arm64", "win-64"]
+version = "0.1.0"
+
+[dependencies]
+python = ">=3.10"
+nodejs = ">=20"
+astropy = ">=5,<6"
+matplotlib = ">=3.5.0,<4"
+pandas = ">=2,<3"
+pip = "*"
+jupyter-book = ">=2,<3"
+jupytext = ">=1.13,<2"
+ipykernel = "*"
+
+[pypi-dependencies]
+linkchecker = "*"
+
+[tasks]
+build = "cd docs && jupyter-book build"
+start = "cd docs && jupyter-book start"
+clean = "cd docs && jupyter-book clean ."

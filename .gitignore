@@ -1,6 +1,11 @@
 # generated pages
 ./docs/_build
 
+# pixi
+.pixi/
+
+# migration backups
+*.bak
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
