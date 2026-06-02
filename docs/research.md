@@ -18,9 +18,9 @@ The term plasma electrolysis is often framed as contact glow discharge electroly
 :label: fig-plasma-properties
 :class: grid grid-cols-2
 
-<video controls style="width: 100%;" src="files/figures/research/plasma/Au_300Vcat_vapor_layer.mp4"></video>
+![Temporal evolution of the vapor layer](files/figures/research/plasma/Au_300Vcat_vapor_layer.mp4)
 
-<video controls style="width: 100%;" src="files/figures/research/plasma/Au_300Vcat_discharges.mp4"></video>
+![Appearance of individual discharges](files/figures/research/plasma/Au_300Vcat_discharges.mp4)
 
 ![Temporal evolution of the vapor layer](files/figures/research/plasma/Vapor_Layer.png)
 
