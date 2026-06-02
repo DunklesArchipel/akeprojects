@@ -17,8 +17,11 @@ ipykernel = "*"
 
 [pypi-dependencies]
 linkchecker = "*"
+bibtexparser = ">=1.4.4, <2"
+habanero = ">=2.3.0, <3"
 
 [tasks]
 build = "cd docs && jupyter-book build"
 start = "cd docs && jupyter-book start"
 clean = "cd docs && jupyter-book clean ."
+check-links = "cd docs && jupyter-book build --check-links"
