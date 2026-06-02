@@ -20,6 +20,7 @@ project:
     - file: people.md
 site:
   options:
+    default_theme: light
     logo: files/logos/logo-ake.svg
     logo_dark: files/logos/logo-ake-dark.svg
     logo_alt: AKE
