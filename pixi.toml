@@ -22,7 +22,7 @@ habanero = ">=2.3.0, <3"
 
 [tasks]
 build = "cd docs && jupyter-book build"
-build-html = "cd docs && myst build --html"
+build-html = "cd docs && jupyter-book build --html"
 start = "cd docs && jupyter-book start"
 clean = "cd docs && jupyter-book clean ."
 check-links = "cd docs && jupyter-book build --check-links"
