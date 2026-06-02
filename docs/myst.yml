@@ -2,7 +2,7 @@ version: 1
 project:
   title: Albert K. Engstfeld
   github: DunklesArchipel/akeprojects
-  site: https://ake-projects.org
+  site: https://www.ake-projects.org
   bibliography:
     - references.bib
   numbering:
