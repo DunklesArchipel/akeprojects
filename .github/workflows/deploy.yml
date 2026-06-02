@@ -7,11 +7,6 @@ concurrency:
   group: deploy-${{ github.ref }}
   cancel-in-progress: true
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
 jobs:
   build:
     runs-on: ubuntu-24.04
@@ -22,24 +17,10 @@ jobs:
         with: { pixi-version: v0.69.0 }
       - name: build static HTML
         run: pixi run build-html
-        env:
-          BASE_URL: /akeprojects
-      - name: upload pages artifact
-        uses: actions/upload-pages-artifact@v3
+      - uses: JamesIves/github-pages-deploy-action@v4
         with:
-          path: docs/_build/html
+          folder: docs/_build/html
+          single-commit: true
         if: ${{ github.event_name == 'push' }}
       - name: check links
         run: pixi run check-links
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-24.04
-    if: ${{ github.event_name == 'push' }}
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
