@@ -1,0 +1,27 @@
+name: Deploy to GitHub Pages
+on:
+  push: { branches: [ "main" ] }
+  pull_request: { branches: [ "main" ] }
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+      - uses: prefix-dev/setup-pixi@v0.9.6
+        with: { pixi-version: v0.69.0 }
+      - name: build site
+        run: pixi run build
+      - name: add .nojekyll
+        run: touch docs/_build/site/.nojekyll
+      - uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: docs/_build/site
+        if: ${{ github.event_name == 'push' }}
+      - name: check links
+        run: pixi run check-links
