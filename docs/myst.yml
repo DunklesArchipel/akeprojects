@@ -19,6 +19,7 @@ project:
     - file: publications.md
     - file: people.md
 site:
+  base_url: /akeprojects
   options:
     logo: files/logos/logo-ake.svg
     logo_dark: files/logos/logo-ake-dark.svg
