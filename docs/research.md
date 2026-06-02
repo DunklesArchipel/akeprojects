@@ -12,7 +12,9 @@ The work on plasma electrolysis is funded within the [SFB-CRC1316](https://sfb13
 
 ### Plasma properties
 
-The term plasma electrolysis is often framed as contact glow discharge electrolysis (CGDE), which does not seem to be appropriate to describe the underlying plasma and rather reflects a combination of arc and glow like behavior.{cite}`forschner_characterization_2026`
+Plasma electrolysis usually appears as a bright glow surrounding the plasma electrode and is often denoted as contact glow discharge electrolysis (CGDE).
+Lukas Forschner used high-speed camera imaging, to reveal that the glow actually consists of small short living lightnings forming between the electrode and electrolyte.{cite}`forschner_statistical_2025`
+In collaboration with our partners at RUB, by combining insights form optical emission spectroscopy (OES), the voltage probes to study the electrolyte, and structural characterization of the electrode, we were able to identify that the plasma rather has both properties of a glow and arc.{cite}`forschner_characterization_2026`
 
 ```{figure}
 :label: fig-plasma-properties
