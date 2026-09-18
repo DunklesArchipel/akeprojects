@@ -52,13 +52,14 @@ References are defined in `docs/references.bib`.
 
 [pixi](https://pixi.sh) is the development environment manager. Tasks and dependencies are defined in `pixi.toml`. Use `pixi run <task>` to execute project tasks.
 
-- `pixi run start` — start the MyST development server
-- `pixi run build` — build the site
+- `pixi run start` — start the MyST development server on <http://localhost:3000> (live reload)
+- `pixi run build` — build the site into `docs/_build/site`
+- `pixi run build-html` — build static HTML into `docs/_build/html`; this is what the deploy workflow runs
 - `pixi run clean` — clean build artifacts
 - `pixi run check-links` — check all external links
 
-See [/memories/repo/tooling.md] for notes on the local environment.
-`rg` is not available; use `grep -RInE` for text search.
+Prefer your agent's built-in search tool for text search; `rg` (ripgrep) is also
+available on the command line.
 
 ## Project Structure
 
