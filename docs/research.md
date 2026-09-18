@@ -81,13 +81,13 @@ Schematic of the nanoparticle formation mechanism during cathodic plasma electro
 This project aimed at exploring, if Ni electrodes could be modified by [plasma electrolysis](#plasma-electrolysis), to improve its performance in alkaline electrolysers, in collaboration with [Sylvain Brimaud](https://scholar.google.com/citations?user=9DZWcP8AAAAJ&hl=fr) at the ZSW.
 However, we got distracted, and J. Leist found that during the OER the commonly accepted $\ce{NiOOH}$ terminated surface rather consists of $\ce{NiO2}$, based on our combined surface enhanced Raman spectroscopy (SERS) measurements and DFT calculation.
 Another key finding is that the SERS spectrum of $\ce{NiO2}$ contains overtones, which are little explored and usually not considered.
-Our results on Co and Mn-based oxides indicate that these overtones might be related to the layered structure of the material.{cite}`leist_consequences_2025`
+Our results on Co and Mn-based oxides indicate that these overtones might be related to the layered structure of the material.{cite}`leist_consequences_2026`
 
 ```{figure} ./files/figures/research/ni_oer_raman_dft.png
 :height: 300px
 :name: fig-ni-oer-raman
 
-Experimental SE and DFT computed Raman spectrum of $\ce{NiO2}$, including the overtone region and a 3D ball model.{cite}`leist_consequences_2025` (kindly provided by Justus Leist)
+Experimental SE and DFT computed Raman spectrum of $\ce{NiO2}$, including the overtone region and a 3D ball model.{cite}`leist_consequences_2026` (kindly provided by Justus Leist)
 ```
 
 ## Single crystal electrodes

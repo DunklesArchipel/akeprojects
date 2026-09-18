@@ -8,7 +8,7 @@
     <tr>
       <td><a href="https://www.uni-ulm.de/en/">Ulm University (teaching incubator FDM-LIN)</a></td>
       <td><img src="./files/logos/logo-uni-ulm.svg" alt="Ulm University logo" class="logo-bg" width="220" /></td>
-      <td>2024–2026</td>
+      <td>2024–2029</td>
     </tr>
     <tr>
       <td><a href="https://www.vci.de/fonds/startseite.jsp">Fonds der Chemischen Industrie</a></td>

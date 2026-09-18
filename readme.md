@@ -10,16 +10,17 @@ Install [pixi](https://pixi.sh), then install dependencies
 pixi install
 ```
 
-Render the book locally
+Render the book locally as static HTML
 
 ```sh
-pixi run build
+pixi run build-html
 ```
 
-Explore the page by either opening the `index.html` in `docs/_build/html` or use
+Explore the page by either opening the `index.html` in `docs/_build/html` or by
+starting the development server (with live reload) on <http://localhost:3000>
 
 ```sh
-pixi run serve
+pixi run start
 ```
 
 To clean the build output:

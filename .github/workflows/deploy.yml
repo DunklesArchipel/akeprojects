@@ -14,7 +14,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
       - uses: prefix-dev/setup-pixi@v0.9.6
-        with: { pixi-version: v0.69.0 }
+        with: { pixi-version: v0.72.2 }
       - name: build static HTML
         run: pixi run build-html
       - uses: JamesIves/github-pages-deploy-action@v4
