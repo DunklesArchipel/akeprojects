@@ -24,10 +24,6 @@ In collaboration with our partners at RUB, by combining insights form optical em
 
 ![Appearance of individual discharges](files/figures/research/plasma/Au_300Vcat_discharges.mp4)
 
-![Temporal evolution of the vapor layer](files/figures/research/plasma/Vapor_Layer.png)
-
-![Appearance of individual discharges](files/figures/research/plasma/Single_spot.png)
-
 Temporal evolution of the vapor layer (left) and appearance of individual discharges (right).{cite}`forschner_characterization_2026`
 ```
 
