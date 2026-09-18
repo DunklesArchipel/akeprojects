@@ -1,0 +1,19 @@
+/* User Provided Stylesheet */
+
+/* Custom styling for logo cells and funding tables. */
+.logo-bg {
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+table td,
+table th {
+  vertical-align: middle;
+}
+
+table td:has(img) {
+  text-align: center;
+}
