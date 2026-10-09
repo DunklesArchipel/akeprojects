@@ -1,5 +1,10 @@
 # Albert K. Engstfeld's projects
 
+```{image} files/pictures/albert_engstfeld.jpg
+:alt: Portrait of Albert K. Engstfeld
+:class: profile-photo
+```
+
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--9686--3948-a6ce39?logo=orcid&logoColor=white)](https://orcid.org/0000-0002-9686-3948)
 [![Google Scholar](https://img.shields.io/badge/Google_Scholar-Profile-4285F4?logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=zz6G_wsAAAAJ&hl=en)
 [![GitHub](https://img.shields.io/badge/GitHub-DunklesArchipel-181717?logo=github&logoColor=white)](https://github.com/DunklesArchipel)
