@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 36" role="img" aria-label="AKE">
+  <title>AKE</title>
+  <g stroke="#1e293b" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- A -->
+    <polyline points="3,32 12,4 21,32"/>
+    <line x1="7.5" y1="18" x2="16.5" y2="18"/>
+    <!-- K -->
+    <line x1="27" y1="4" x2="27" y2="32"/>
+    <line x1="27" y1="18" x2="43" y2="4"/>
+    <line x1="27" y1="18" x2="43" y2="32"/>
+    <!-- E -->
+    <line x1="50" y1="4" x2="50" y2="32"/>
+    <line x1="50" y1="4" x2="68" y2="4"/>
+    <line x1="50" y1="18" x2="64" y2="18"/>
+    <line x1="50" y1="32" x2="68" y2="32"/>
+  </g>
+</svg>

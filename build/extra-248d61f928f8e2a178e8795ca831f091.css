@@ -1,0 +1,36 @@
+/* Custom styling for logo cells and funding tables. */
+.logo-bg {
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+table td,
+table th {
+  vertical-align: middle;
+}
+
+/* Round portrait centered above the intro text on the main page. */
+img.profile-photo {
+  display: block;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Center the title on the page that shows the portrait (main page only). */
+body:has(img.profile-photo) h1.myst-fm-block-title {
+  text-align: center;
+}
+
+/* Center the badge row directly below the portrait. */
+img.profile-photo + p {
+  text-align: center;
+}
+
+table td:has(img) {
+  text-align: center;
+}
